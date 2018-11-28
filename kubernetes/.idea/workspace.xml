@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c0ddae-c26c-4baf-baf4-84a50e081e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/client/EmployeeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../department-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/department-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organization-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../organization-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../department-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/DepartmentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/ikane/departmentservice/DepartmentServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../department-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../department-service/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../organization-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../organization-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/OrganizationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../organization-service/src/main/java/com/ikane/organizationservice/OrganizationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../organization-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../organization-service/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +114,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543427082065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543427728080" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -145,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543423236072</updated>
-      <workItem from="1543423237486" duration="2045000" />
+      <workItem from="1543423237486" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="employee-deployment">
       <created>1543423330855</created>
@@ -158,7 +153,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2045000" />
+    <option name="totallyTimeSpent" value="2643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
